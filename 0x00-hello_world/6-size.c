@@ -1,4 +1,7 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
 /**
  * main - a program that prints the size of various computers with printf function
  *
@@ -11,6 +14,7 @@ int main(void)
 	long int c;
 	long long int d;
 	float e;
+	// sizeof evaluates the size of a variable
 	printf("Size of a char: %lu byte(s)\n", sizeof(a));
 	printf("Size of a int: %lu byte(s)\n", sizeof(b));
 	printf("Size of a long int: %lu byte(s)\n", sizeof(c));
